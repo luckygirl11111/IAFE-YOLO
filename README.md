@@ -27,9 +27,9 @@ integration of enhancer and detector.
 ## 🏗️ Project Structure
 
 ```
-├── 📁 labels/                          # Annotation directory for Exdark datasets
-│   ├── 📄 Exdark_train82.txt           # Train annotation path for Exdark datasets
-│   ├── 📄 Exdark_val82.txt             # Val annotation path for Exdark datasets
+├── 📁 labels/                          # Annotation directory for Exdark dataset
+│   ├── 📄 Exdark_train82.txt           # Train annotation path for Exdark dataset
+│   ├── 📄 Exdark_val82.txt             # Val annotation path for Exdark dataset
 │
 ├── 📁 model_data/                      # YOLO anchors and dataset classes
 │   ├── 📄 classes_Darkface.txt         # Darkface dataset
