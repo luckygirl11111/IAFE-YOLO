@@ -16,6 +16,15 @@ integration of enhancer and detector.
   <img src="./IAFE-YOLO+.png" width="800" alt="TEF Model Architecture">
 </div>
 
+## 🌟 Key Contributions
+
+1. We propose an Adaptive Brightness Transformation Function (ABTF), which leverages an adaptive learning mechanism to dynamically adjust exposure under the supervision of detection loss, ensuring the generation of detection-desired multi-exposure data.
+  
+2. From the novel perspective of amplitude-phase disentanglement and recombination, we design a Fourier-based Multi-exposure Fusion Block (FMFB). This module fuses the lightness of overexposed images with the structural details from underexposed ones, constructing an optimal representation from their complementary information.
+
+3. We present a Feature Interaction Block (FIB) that harnesses a guided gating mechanism to adaptively select advantageous characteristics from different exposure features. Serving as a bridge, it enables flexible collaboration between the enhancer and the detector, thereby enhancing detection robustness.
+
+   
 ## Steps for training the ExDark dataset
 ### I. Dataset Download   
 **This paper adopts the COCO format for training. Before training, you need to download the ExDark dataset and place it in the root directory after unpacking.**
