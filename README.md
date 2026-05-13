@@ -13,7 +13,7 @@ integration of enhancer and detector.
 ## 🏗️ Model Architecture
 
 <div align="center">
-  <img src="./IAFE-YOLO+.pdf" width="800" alt="TEF Model Architecture">
+  <img src="./IAFE-YOLO+.png" width="800" alt="TEF Model Architecture">
 </div>
 
 ## Steps for training the ExDark dataset
