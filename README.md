@@ -93,7 +93,7 @@ pip install numpy  tqdm  kornia opencv-python
 ### I. Dataset Download   
 **This paper adopts the COCO format for training. Before training, you need to download the ExDark dataset and place it in the root directory after unpacking.**
 Download the dataset from the [here](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset).
-We have already split the ExDark dataset with train set (80%) and test set (20%), see paper [MAET (ICCV 2021)].
+We have already split the ExDark dataset with train set (80%) and test set (20%), see paper [MAET (ICCV 2021)](https://github.com/cuiziteng/ICCV_MAET).
 
 ### II. Dataset Processing   
 1. Modify the annotation_mode to 2 in the coco_annotation_ExDark.py file.
