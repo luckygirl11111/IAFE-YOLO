@@ -127,7 +127,7 @@ There are numerous training parameters, all of which are set in train_in_Exdark.
 ```
 $ python train_in_Exdark.py
 ```
-We provide the yolov5_l.pth model, which is trained on COCO2017 [here](https://github.com/bubbliiiing/yolov5-pytorch/releases/download/v1.0/yolov5_l.pth).
+We provide the [yolov5_l.pth](https://github.com/bubbliiiing/yolov5-pytorch/releases/download/v1.0/yolov5_l.pth), which is trained on COCO2017.
 
 ## 📊 Testing
 
