@@ -4,11 +4,17 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Code-green)](https://github.com/luckygirl11111/IAFE-YOLO)
 
 ## 📋 Abstract
-Detecting objects in images captured under low-light conditions is particularly challenging owing to insuﬃcient lighting. Existing methods can generally be divided into a two-stage and an end-to-end pattern of“enhancer + detector”. However, both of them ignore either goal inconsistency or collaboration inﬂexibility between 
+Detecting objects in images captured under low-light conditions is particularly challenging owing to insuﬃcient lighting. Existing methods can generally be divided into a two-stage and an end-to-end pattern of “enhancer + detector”. However, both of them ignore either goal inconsistency or collaboration inﬂexibility between 
 the enhancer and detector, leading to suboptimal detection performance. This paper constructs a framework containing two key components: Illumination-Adaptive Feature Enhancement (IAFE) and enhanced version of YOLOv5 (YOLO+) . IAFE achieves detection-oriented enhancement by considering both the light adaptation and 
 object-related information extraction. YOLO+ attains enhancement-guided detection via a Feature Interaction Block (FIB), which promotes the dynamic collaboration between the enhancer and detector, ultimately enabling more precise detection. The joint optimization of IAFE and YOLO+ yields an end-to-end framework named
 IAFE-YOLO+ for low-light object detection. Experimental evaluations demonstrate that IAFE-YOLO+ achieves state-of-the-art accuracy, outperforming the previous best methods by 1.3%, 0.6%, 3.0%, 1.3% mAP50 on ExDark, LLVIP, DARK FACE and VOC 2007, respectively. This work might open up a new paradigm for the eﬀective 
 integration of enhancer and detector.
+
+## 🏗️ Model Architecture
+
+<div align="center">
+  <img src="./IAFE-YOLO+.pdf" width="800" alt="TEF Model Architecture">
+</div>
 
 ## Steps for training the ExDark dataset
 ### I. Dataset Download   
