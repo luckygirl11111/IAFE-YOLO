@@ -131,7 +131,7 @@ We provide the yolov5_l.pth model, which is trained on COCO2017 [here](https://g
 
 ## 📊 Testing
 
-1.Download our model [IAFE-YOLO+_Exdark](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/saved_model/Exdark)
+1.Download our model [IAFE-YOLO+_Exdark.pth](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/saved_model/Exdark)
 
 2. Run test_Our_in_Exdark_enhance.py to obtain the enhanced images on the test set.
 ```
