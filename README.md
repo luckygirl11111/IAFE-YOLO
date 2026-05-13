@@ -71,9 +71,23 @@ integration of enhancer and detector.
 ### Prerequisites
 
 - Python 3.7.13
-- PyTorch 1.13.0+cu117
-- CUDA 11.7 (for GPU support)
+- PyTorch 1.13.0+cu113
+- CUDA 11.3 (for GPU support)
 - 40GB+ GPU memory recommended
+
+### Installation
+
+```
+# Create virtual environment (recommended)
+conda create -n IAFE python=3.7
+source activate IAFE
+
+# Install PyTorch (adjust for your CUDA version)
+pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+# Install other dependencies
+pip install numpy  tqdm  kornia opencv-python
+```
 
 
 ## Steps for training the ExDark dataset
