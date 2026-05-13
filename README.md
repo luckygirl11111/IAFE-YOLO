@@ -131,13 +131,17 @@ We provide the yolov5_l.pth model, which is trained on COCO2017 [here](https://g
 
 ## 📊 Testing
 
-1. Run test_Our_in_Exdark_enhance.py to obtain the enhanced images on the test set.
+1.Download our model [IAFE-YOLO+_Exdark](https://github.com/bubbliiiing/yolov5-pytorch/releases/download/v1.0/yolov5_s.pth)
+
+2. Run test_Our_in_Exdark_enhance.py to obtain the enhanced images on the test set.
 ```
 $ python test_Our_in_Exdark_enhance.py
 ```
 
-2. Run predict_in_Exdark.py to obtain the evaluation metrics, and the detection results will be saved in the dir_save_path directory.
+3. Run predict_in_Exdark.py to obtain the evaluation metrics, and the detection results will be saved in the dir_save_path directory.
 ```
 $ python predict_in_Exdark.py
 ```
+
+
 
