@@ -18,7 +18,7 @@ os.environ['CUDA_VISIBLE_DEVICES']='0'
 class YOLO(object):
     _defaults = {
         
-        "model_path"        : 'saved_model/Exdark/ep135-loss0.055-val_loss0.057.pth',
+        "model_path"        : 'saved_model/Exdark/IAFE-YOLO+_Exdark.pth',
         "classes_path"      : 'model_data/classes_Exdark.txt',
         #---------------------------------------------------------------------#
         #   anchors_path代表先验框对应的txt文件，一般不修改。
