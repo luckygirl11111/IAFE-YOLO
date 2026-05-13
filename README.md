@@ -93,11 +93,11 @@ pip install numpy  tqdm  kornia opencv-python
 ### I. Dataset Download   
 **This paper adopts the COCO format for training. Before training, you need to download the dataset and place it in the root directory after unpacking.**
 
-Download the dataset from the [ExDark](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
+Download ExDark dataset from the [ExDark](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
 
-Download the dataset from the [LLVIP](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
+Download LLVIP dataset from the [LLVIP](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
 
-Download the dataset from the [Darkface](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
+Download Darkface dataset from the [Darkface](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
 
 
 ### II. Dataset Processing  
