@@ -66,6 +66,16 @@ integration of enhancer and detector.
 
 ```
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.7.13
+- PyTorch 1.13.0+cu117
+- CUDA 11.7 (for GPU support)
+- 40GB+ GPU memory recommended
+
+
 ## Steps for training the ExDark dataset
 ### I. Dataset Download   
 **This paper adopts the COCO format for training. Before training, you need to download the ExDark dataset and place it in the root directory after unpacking.**
