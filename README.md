@@ -147,5 +147,33 @@ $ python test_Our_in_Exdark_enhance.py
 $ python predict_in_Exdark.py
 ```
 
+## 📝 Citation
 
+If you find this work helpful in your research, please consider citing:
+
+```bibtex
+@article{lu2026illumination,
+  title={Illumination-adaptive Feature Enhancement for Low-light Object Detection},
+  author={Lu, Jiajia and Zheng, Wenping and Qian, Yuhua and Liang, Xinyan and Wang, Keqi and Yuan, Zhian},
+  journal={Pattern Recognition},
+  pages={113122},
+  year={2026},
+  publisher={Elsevier}
+}
+```
+
+## 🔗 Reference
+
+https://github.com/bubbliiiing/yolov5-pytorch
+
+https://github.com/XiangchenYin/PE-YOLO
+
+
+<div align="center">
+  <b>Institute of Big Data Science and Industry</b><br>
+  Key Laboratory of Evolutionary Science Intelligence of Shanxi Province<br>
+  Shanxi University<br>
+  <br>
+  ⭐ Star us on GitHub if this work helps your research!
+</div>
 
