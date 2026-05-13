@@ -120,6 +120,7 @@ $ python coco_annotation_ExDark.py
 ## 📈 Training
 
 There are numerous training parameters, all of which are set in train_in_Exdark.py. 
+
 **Modify the classes_path to point to the TXT file corresponding to the detection categories.** 
 
 **Modify the model_path to load the pre-trained weights for model_data/yolov5_l.pth.** 
@@ -129,11 +130,12 @@ There are numerous training parameters, all of which are set in train_in_Exdark.
 ```
 $ python train_in_Exdark.py
 ```
+
 We provide the [yolov5_l.pth](https://github.com/bubbliiiing/yolov5-pytorch/releases/download/v1.0/yolov5_l.pth), which is trained on COCO2017.
 
 ## 📊 Testing
 
-1.Download our model [IAFE-YOLO+_Exdark.pth](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/saved_model/Exdark)
+1.Download our model [IAFE-YOLO+_Exdark.pth](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/saved_model/Exdark).
 
 2. Run test_Our_in_Exdark_enhance.py to obtain the enhanced images on the test set.
 ```
