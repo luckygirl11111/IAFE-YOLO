@@ -100,8 +100,12 @@ Download the dataset from the [LLVIP](https://huggingface.co/Jiajia-Lu0527/IAFE/
 Download the dataset from the [Darkface](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/dataset).
 
 
-### II. Dataset Processing   
+### II. Dataset Processing  
+
+We take the ExDark dataset as an example.
+
 1. Modify the annotation_mode to 2 in the coco_annotation_ExDark.py file.
+   
 2. Create a classes_Exdark.txt file that lists the categories to be distinguished in the ExDark dataset. The content of the model_data/classes_Exdark.txt file is:      
  ```python
  Bicycle
@@ -117,6 +121,7 @@ Download the dataset from the [Darkface](https://huggingface.co/Jiajia-Lu0527/IA
  People
  Table
  ```
+
 3. Modify the classes_path in coco_annotation_ExDark.py to point to classes_Exdark.txt, then run coco_annotation_ExDark.py to generate Exdark_train82.txt and Exdark_val82.txt in the root directory. These files will contain the paths and labels of the training/validation images.   
 ```
 $ python coco_annotation_ExDark.py
