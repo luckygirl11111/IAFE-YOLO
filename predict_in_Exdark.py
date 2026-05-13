@@ -76,7 +76,7 @@ if __name__ == "__main__":
     #   获得种类和先验框的数量
     #---------------------------------------------------#
     
-    model_path='saved_model/Exdark/ep135-loss0.055-val_loss0.057.pth'
+    model_path='saved_model/Exdark/IAFE-YOLO+_Exdark.pth'
     
     classes_path= 'model_data/classes_Exdark.txt'
     anchors_path='model_data/yolo_anchors.txt'
