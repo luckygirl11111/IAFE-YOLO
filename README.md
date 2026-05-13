@@ -135,7 +135,7 @@ We provide the [yolov5_l.pth](https://github.com/bubbliiiing/yolov5-pytorch/rele
 
 ## 📊 Testing
 
-1.Download our model [IAFE-YOLO+_Exdark.pth](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/saved_model/Exdark).
+1.Download our model [IAFE-YOLO+_Exdark.pth](https://huggingface.co/Jiajia-Lu0527/IAFE/tree/main/saved_model/Exdark) and place it under the saved_model/Exdark/ path."
 
 2. Run test_Our_in_Exdark_enhance.py to obtain the enhanced images on the test set.
 ```
