@@ -121,7 +121,9 @@ $ python coco_annotation_ExDark.py
 
 There are numerous training parameters, all of which are set in train_in_Exdark.py. 
 **Modify the classes_path to point to the TXT file corresponding to the detection categories.** 
+
 **Modify the model_path to load the pre-trained weights for model_data/yolov5_l.pth.** 
+
 **Set train_annotation_path = 'labels/Exdark_train82.txt' and val_annotation_path = 'labels/Exdark_val82.txt'.** 
 
 ```
