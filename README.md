@@ -24,7 +24,48 @@ integration of enhancer and detector.
 
 3. We present a Feature Interaction Block (FIB) that harnesses a guided gating mechanism to adaptively select advantageous characteristics from different exposure features. Serving as a bridge, it enables flexible collaboration between the enhancer and the detector, thereby enhancing detection robustness.
 
-   
+## 🏗️ Project Structure
+
+```
+├── 📁 labels/                          # Annotation directory for Exdark datasets
+│   ├── 📄 Exdark_train82.txt           # Train annotation path for Exdark datasets
+│   ├── 📄 Exdark_val82.txt             # Val annotation path for Exdark datasets
+│
+├── 📁 model_data/                      # YOLO anchors and dataset classes
+│   ├── 📄 classes_Darkface.txt         # Darkface dataset
+│   ├── 📄 classes_Exdark.txt           # Exdark dataset 
+│   ├── 📄 classes_LLVIP.txt            # LLVIP dataset
+│   ├── 📄 simhei.ttf                   # SimHei font file
+│   └── 📄 voc_classes.txt              # VOC2007 dataset
+│   └── 📄 yolo_anchors.txt             # YOLO anchors
+│
+├── 📁 nets/                            # Model architectures
+│   ├── 📄 CSPdarknet.py                # YOLOv5 architecture
+│   ├── 📄 ConvNext.py                  # ConvNext architecture
+│   ├── 📄 IAFE_YOLO.py                 # IAFE-YOLO+ architecture for training
+│   ├── 📄 IAFE_YOLO_test.py            # IAFE-YOLO+ architecture for testing
+│   ├── 📄 IAFE_YOLO_test_enhanceimg.py # IAFE-YOLO+ architecture for generating testing-enhanced images
+│   ├── 📄 PENet_1.py                   # PENet architecture
+│   ├── 📄 Swin_transformer.py          # Swin-transformer architecture
+│   ├── 📄 yolo_training.py             # YOLO loss and learning rate optimization
+│
+├── 📁 utils/                           # Utility functions
+│   ├── 📄 __init__.py                  # Package initialization
+│   ├── 📄 callbacks_2_visual.py        # Metrics tracking, along with the logging of loss and learnable parameters during training
+│   └── 📄 callbacks_mAP95.py           # Metrics tracking during testing (mAP50:95)
+│   └── 📄 dataloader.py                # Dataset loader
+│   └── 📄 utils.py                     # General utilities (seed, checkpoint, anchors, classes...)
+│   └── 📄 utils_bbox.py                # DecodeBox
+│   └── 📄 utils_map.py                 # Get map
+│           
+├── 📄 coco_annotation_Exdark.py        # Dataset processing
+├── 📄 predict_in_Exdark.py             # Output detection results and evaluation metrics on the test set.
+└── 📄 test_Our_in_Exdark_enhance.py    # Output the enhanced results on the test set.
+└── 📄 train_in_Exdark.py               # Training script for Exdark dataset
+└── 📄 yolo_Our_in_Exdark_82split.py    # Draw prediction boxes
+
+```
+
 ## Steps for training the ExDark dataset
 ### I. Dataset Download   
 **This paper adopts the COCO format for training. Before training, you need to download the ExDark dataset and place it in the root directory after unpacking.**
